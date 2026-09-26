@@ -74,4 +74,4 @@ poetry run pytest -q
 
 ## License
 
-[MIT](LICENSE)
+[Apache-2.0](LICENSE)

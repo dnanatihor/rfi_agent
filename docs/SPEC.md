@@ -263,7 +263,7 @@ Useful fields: `llm_configured`, `embeddings_configured`, `rerank_configured`, `
 
 ```
 README.md              What it is and how to start
-LICENSE                MIT
+LICENSE                Apache-2.0
 docker-compose.yml     Postgres + pgvector
 .env.example           Template for secrets (copy to .env)
 pyproject.toml         Poetry project + dependencies
