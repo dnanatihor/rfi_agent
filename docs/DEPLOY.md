@@ -262,6 +262,7 @@ Useful fields: `llm_configured`, `embeddings_configured`, `rerank_configured`, `
 ## Layout
 
 ```
+README.md              What it is and how to start
 LICENSE                Apache-2.0
 docker-compose.yml     Postgres + pgvector
 .env.example           Template for secrets (copy to .env)

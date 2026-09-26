@@ -3,7 +3,7 @@ name = "rfi-agent"
 version = "0.5.0"
 description = "Local RFI agent: project document index, cited drafts, and approved answer memory"
 authors = ["Rohit Anand <dnanatihor@gmail.com>"]
-readme = "docs/DEPLOY.md"
+readme = "README.md"
 packages = [{ include = "rfi_agent", from = "src" }]
 
 [tool.poetry.dependencies]
