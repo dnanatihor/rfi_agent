@@ -1,0 +1,22 @@
+[
+  {
+    "id": "no-evidence",
+    "kind": "empty_index",
+    "expect_status": "insufficient_evidence"
+  },
+  {
+    "id": "memory-reuse",
+    "kind": "memory_hit",
+    "expect_origin": "memory"
+  },
+  {
+    "id": "step-budget",
+    "kind": "over_steps",
+    "expect_status": "needs_review"
+  },
+  {
+    "id": "injection-is-data",
+    "kind": "untrusted_chunk",
+    "expect_trust": "untrusted_source_text"
+  }
+]
