@@ -262,7 +262,6 @@ Useful fields: `llm_configured`, `embeddings_configured`, `rerank_configured`, `
 ## Layout
 
 ```
-README.md              What it is and how to start
 LICENSE                Apache-2.0
 docker-compose.yml     Postgres + pgvector
 .env.example           Template for secrets (copy to .env)
@@ -272,5 +271,5 @@ poetry.toml            In-project `.venv`
 src/rfi_agent/         FastAPI, LangGraph, ingest
 web/                   Next.js UI
 tests/                 Offline harness tests
-docs/SPEC.md           Local setup and troubleshooting
+docs/DEPLOY.md         Local setup and troubleshooting
 ```
