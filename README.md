@@ -1,5 +1,9 @@
 # RFI Agent
 
+[![Python](https://img.shields.io/badge/python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Node.js](https://img.shields.io/badge/node.js-20%2B-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![License](https://img.shields.io/badge/license-Apache_2.0-blue?logo=apache&logoColor=white)](LICENSE)
+
 Local draft assistant for RFIs, RFPs, and security questionnaires. It answers from documents you index and from answers you have already approved. Every answer cites its sources, or it says the evidence is not there.
 
 This is a single-machine app: Postgres in Docker, a FastAPI backend, and a Next.js UI. It does not send drafts to a customer or a portal.

@@ -1,3 +1,6 @@
+# Disabled. GitHub Actions is off for this repository.
+# Rename this file to test.yml to run pytest on push and pull requests.
+
 name: test
 
 on:
